@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer{
+   @apply bg-gray-400 sticky bottom-0;
+}
+.bgw{
+  @apply bg-white;
+}
+.twhite{
+  @apply text-white;
+}
+.nav-link{
+  @apply  text-gray-400 hover:bg-gray-700 cursor-pointer hover:text-white px-3 py-2 rounded-md text-sm font-medium hover:border-b-4 hover:border-gray-900;
+}
+.nav-link-mobile{
+  @apply text-gray-300  hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium;
+}
+.usefull-link-title{
+  @apply   font-bold text-gray-900 mb-5 text-[18px] dark:text-gray-200;
+}
+.usefull-link-subtitle{
+  @apply mb-2 dark:text-gray-300;
+}
+.usefull-link-subtitle-without-contact{
+  @apply transition-all duration-200 hover:text-green-900 hover:pl-[3px] dark:text-gray-300;
+}
+details[open]>summary {
+    @apply bg-gray-900 transition-all duration-500 ease-in;
+  }
+  details[open]>summary h4{
+    @apply text-white;
+  }
+  @layer base {
+    body {
+      background-color: var(--bg-color);
+    }
+  }
+  .slick-slide > div {
+    margin: 0 10px;
+    }
+  .slick-dots li {
+    margin: 0 -4px !important;
+  }
+  
+ 
