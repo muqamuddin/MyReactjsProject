@@ -26,7 +26,7 @@ return (
                 {item.review}
               </p>
               <span className="w-full inline-block h-[1px] bg-gray-200 dark:bg-white/50"></span>
-              <SeeMoreB more="More details" to='#' />
+              <SeeMoreB more="More details" to={`/servicedetails/${item.id}`} />
             </div>
           </div>
         </div>

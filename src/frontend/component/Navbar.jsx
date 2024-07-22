@@ -32,10 +32,10 @@ const Navbar = () => {
                   <Link to="/" className="nav-link">
                     Home
                   </Link>
-                  <Link to="Service" className="nav-link">
+                  <Link to="/Service" className="nav-link">
                     Services
                   </Link>
-                  <Link to="project" className="nav-link">
+                  <Link to="/project" className="nav-link">
                     Project
                   </Link>
                   <Link to="/admin/about/about" className="nav-link">
@@ -78,10 +78,19 @@ const Navbar = () => {
                   <Link to="/admin/about/about" className="nav-link-mobile">
                     About
                   </Link>
-                  <Link to="" className="nav-link-mobile">
+                  <Link to="/Service" className="nav-link-mobile">
                     Services
                   </Link>
-                  <Link to="" className="nav-link-mobile">
+                  <Link to="/project" className="nav-link-mobile">
+                    Project
+                  </Link>
+                  <Link to="/team" className="nav-link-mobile">
+                    Team
+                  </Link>
+                  <Link to="/faqs" className="nav-link-mobile">
+                    Faqs
+                  </Link>
+                  <Link to="/contact" className="nav-link-mobile">
                     Contact Us
                   </Link>
                   <DarkMode />
