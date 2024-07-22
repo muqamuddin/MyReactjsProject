@@ -29,6 +29,10 @@ const ServiceDetails = ( ) => {
               </h3>
               <div className="border border-green-900 border-dashed dark:border-white"></div>
               <p className="text-quote md:text-lead-lg text-gray-600 mb-[50px] mt-5 dark:text-gray-300  ">
+              ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt ut, vel maxime quas alias. Autem eum, necessitatibus quaerat nemo a similique quisquam vitae, aperiam ullam odio nulla esse nam!
+              ipsum, dolor sit amet consectetur adipisicing elit. Deserunt minima necessitatibus quo tempore, tempora libero? Mollitia ullam ipsa nesciunt, esse officiis dolorem deserunt, iure velit dignissimos delectus minus voluptatem? Aliquid.
+              ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt ut, vel maxime quas alias. Autem eum, necessitatibus quaerat nemo a similique quisquam vitae, aperiam ullam odio nulla esse nam!
+              ipsum, dolor sit amet consectetur adipisicing elit. Deserunt minima necessitatibus quo tempore, tempora libero? Mollitia ullam ipsa nesciunt, esse officiis dolorem deserunt, iure velit dignissimos delectus minus voluptatem? Aliquid.
              {service.review}
               </p>
               <div className="border border-green-900 border-dashed dark:border-white"></div>
