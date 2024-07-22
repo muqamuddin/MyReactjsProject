@@ -1,8 +1,12 @@
 import React from 'react'
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
-const ServiceDetails = (props) => {
-  const  id = 1;
+import { useParams } from 'react-router-dom';
+import { data } from '../component/data';
+
+const ServiceDetails = ( ) => {
+  const { id } = useParams();
+  const service = data.find((item) => item.id === parseInt(id));
   return (
     <>
       <Navbar />
@@ -13,19 +17,19 @@ const ServiceDetails = (props) => {
             <div className="relative">
               <img
                 className="rounded-2xl mb-[30px] lg:mb-0 lg:flex-1"
-                src={`${process.env.PUBLIC_URL}/file\service1.jpg`}
+                src={service.image}
               />
             </div>
             <div className="flex-1 order-1">
               <h1 className="font-chivo font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px] dark:text-gray-300 ">
-                Servic Details Title
+                {service.name}
               </h1>
               <h3 className="font-chivo font-bold md:text-lead-lg text-gray-600 mb-[20px] dark:text-gray-300">
                 Short description
               </h3>
               <div className="border border-green-900 border-dashed dark:border-white"></div>
               <p className="text-quote md:text-lead-lg text-gray-600 mb-[50px] mt-5 dark:text-gray-300  ">
-             Long description
+             {service.review}
               </p>
               <div className="border border-green-900 border-dashed dark:border-white"></div>
             </div>

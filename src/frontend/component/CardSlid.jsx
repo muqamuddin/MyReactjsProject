@@ -3,38 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
- const data = [
-  {
-    name: `Culture`,
-    image: `${process.env.PUBLIC_URL}/file/service1.jpg`,
-    review: ` Maiores doloribus corrupti eaque similique pariatur cum molestiae modi doloremque nam veritatis quibusdam 
-     commodi assumenda id optio harum, magni vero suscipit deserunt.`,
-  },
-  {
-    name: `Education`,
-    image: `${process.env.PUBLIC_URL}/file/education.webp`,
-    review: ` Maiores doloribus corrupti eaque similique pariatur cum molestiae modi doloremque nam veritatis quibusdam 
-     commodi assumenda id optio harum, magni vero suscipit deserunt.`,
-  },
-  {
-    name: `Building`,
-    image: `${process.env.PUBLIC_URL}/file/service2.jpg`,
-    review: ` Maiores doloribus corrupti eaque similique pariatur cum molestiae modi doloremque nam veritatis quibusdam 
-     commodi assumenda id optio harum, magni vero suscipit deserunt.`,
-  },
-  {
-    name: `Skills`,
-    image: `${process.env.PUBLIC_URL}/file/skills.jpg`,
-    review: ` Maiores doloribus corrupti eaque similique pariatur cum molestiae modi doloremque nam veritatis quibusdam 
-     commodi assumenda id optio harum, magni vero suscipit deserunt.`,
-  },
-  {
-    name: `Science`,
-    image: `${process.env.PUBLIC_URL}/file/Science.png`,
-    review: ` Maiores doloribus corrupti eaque similique pariatur cum molestiae modi doloremque nam veritatis quibusdam 
-     commodi assumenda id optio harum, magni vero suscipit deserunt.`,
-  },
-];
+import { data } from './data';
 const CardSlid = () => {
   var settings = {
     dots: true,
@@ -89,9 +58,7 @@ const CardSlid = () => {
                   <p className="hover:underline">{item.name}</p>
                   <p className="-mt-4 flex justify-between items-start ">{item.review.slice(0 , 100)}...</p>
                   <Link  className="bg-teal-500 text-white text-lg px-6 py-1 rounded-xl mb-4 " 
-                  // to="/projectdetail"
-                  // to={`/projectdetail/${item.id}`}
-                  to=''
+                  to={`/projectdetail/${item.id}`}
                   >Read More</Link>
                 </div>
               </div>
