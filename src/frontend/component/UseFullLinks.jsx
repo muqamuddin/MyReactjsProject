@@ -21,12 +21,12 @@ const UseFullLinks = () => {
           </h5>
           <ul>
             <li className="mb-2">
-              <Link className="usefull-link-subtitle-without-contact" to="#">
+              <Link className="usefull-link-subtitle-without-contact" to="/admin/about/about">
                 Mission &amp; Vision
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="usefull-link-subtitle-without-contact" to="#">
+              <Link className="usefull-link-subtitle-without-contact" to="/team">
                 Our Team
               </Link>
             </li>
@@ -38,7 +38,7 @@ const UseFullLinks = () => {
           </h5>
           <ul>
             <li className="mb-2">
-              <Link className="usefull-link-subtitle-without-contact" to="#">
+              <Link className="usefull-link-subtitle-without-contact" to="/contact">
                 Contact Us
               </Link>
             </li>
@@ -50,12 +50,12 @@ const UseFullLinks = () => {
           </h5>
           <ul>
             <li className="mb-2">
-              <Link className="usefull-link-subtitle-without-contact" to="#">
+              <Link className="usefull-link-subtitle-without-contact" to="/Service">
                 News &amp; Services
               </Link>
             </li>
             <li className="mb-2">
-              <Link className="usefull-link-subtitle-without-contact" to="#">
+              <Link className="usefull-link-subtitle-without-contact" to="/project">
                 How it works
               </Link>
             </li>
