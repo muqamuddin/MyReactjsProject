@@ -73,10 +73,10 @@ const FAQs = () => {
               <button type="button">
                 {" "}
                 <Link
-                  className="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-md bg-transparent text-white hover:bg-teal-600 bg-red-600 dark:text-gray-900 dark:bg-white w-fit"
+                  className="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-md bg-transparent text-white bg-teal-500 hover:bg-teal-700  dark:text-gray-900 dark:bg-white w-fit"
                   to="/contact"
                 >
-                  <span className="block text-inherit w-full h-full rounded-md text-lg font-chivo font-semibold  ">
+                  <span className="block text-inherit w-full h-full rounded-md text-lg font-chivo font-semibold ">
                     Support Center
                   </span>
                 </Link>
