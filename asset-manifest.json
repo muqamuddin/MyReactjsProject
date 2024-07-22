@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyReactProject/static/css/main.99c337a5.css",
-    "main.js": "/MyReactProject/static/js/main.4715927e.js",
-    "static/media/slick.svg": "/MyReactProject/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/MyReactProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/MyReactProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/MyReactProject/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/MyReactProject/index.html",
-    "main.99c337a5.css.map": "/MyReactProject/static/css/main.99c337a5.css.map",
-    "main.4715927e.js.map": "/MyReactProject/static/js/main.4715927e.js.map"
+    "main.css": "/MyReactjsProject/static/css/main.88323ca0.css",
+    "main.js": "/MyReactjsProject/static/js/main.49a8d3a3.js",
+    "static/media/slick.svg": "/MyReactjsProject/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MyReactjsProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MyReactjsProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MyReactjsProject/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MyReactjsProject/index.html",
+    "main.88323ca0.css.map": "/MyReactjsProject/static/css/main.88323ca0.css.map",
+    "main.49a8d3a3.js.map": "/MyReactjsProject/static/js/main.49a8d3a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.99c337a5.css",
-    "static/js/main.4715927e.js"
+    "static/css/main.88323ca0.css",
+    "static/js/main.49a8d3a3.js"
   ]
 }
