@@ -7,7 +7,7 @@ const CopyRight = () => {
         <div className="w-full bg-gray-200 h-[1px] mb-[46px] dark:border dark:border-b-1 dark:border-gray-600 "></div>
                         <div className="text-gray-400 lg:flex lg:items-center lg:justify-between">
                         <div className="md:flex md:items-center md:gap-6">
-                            <p className="text-lead font-bold dark:text-white">©Copyright - 2023 by The Afghanistan Green Future Organization | All Rights Reserved
+                            <p className="text-lead font-bold dark:text-white">©Copyright - 2023 | All Rights Reserved
                             </p>
                             <div className="flex items-center justify-between md:gap-6"><Link className="text-text dark:text-gray-300" to="home-3.html#">Privacy policy</Link><Link className="text-text dark:text-gray-300" to="home-3.html#">Cookies</Link><Link className="text-text dark:text-gray-300" to="home-3.html#">Terms of service</Link></div>
                         </div>
