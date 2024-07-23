@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth">
+
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -14,13 +15,26 @@
   <!-- <link href="/dist/output.css" rel="stylesheet"> -->
   <style type="text/css">
     @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
     .font-family-karla {
       font-family: karla;
     }
+    @import-normalize;
+.my-element {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  /* Add vendor prefix for older browsers */
+  -webkit-align-items: center;
+  /* Add vendor prefix for older browsers */
+  align-items: center;
+}
   </style>
 </head>
+
 <body class="font-family-karla">
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
+
 </html>
