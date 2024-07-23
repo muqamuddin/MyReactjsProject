@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import {BrowserRouter, Navigate, Route, Routes, } from 'react-router-dom';
 import Dashboard from './admin/Dashboard';
 import Test from './admin/test';
 import Home from './frontend/Pages/Home';
@@ -18,10 +18,9 @@ function App() {
   return (
 <div >
   <BrowserRouter basename={process.env.PUBLIC_URL} >
-  {/* <BrowserRouter  > */}
             <Routes>
               {/* this is the Web Roust */}
-              <Route path="/" Component={Home} /> 
+              <Route exact path="/" Component={Home} /> 
               <Route path="/admin/about/about/" Component={About} /> 
               <Route path="/service/" Component={Service} />
               <Route path='/project/' Component={Project} />

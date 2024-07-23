@@ -1,7 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Default styles for small screens */
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
 
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  .container1 {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container1 {
+    width: 70%;
+  }
+}
 .footer{
    @apply bg-gray-400 sticky bottom-0;
 }
