@@ -3,7 +3,7 @@ import CardSlid from './CardSlid'
 const ComProject = () => {
   return (
     <>
-       <div className="container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] ">
+       <div className=" my-element container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] ">
         <div className=" bg-beige relative px-[12px] py-[70px] rounded-[50px] ">
           <img
             className="absolute top-0 left-0 z-0 -translate-x-1/4"
