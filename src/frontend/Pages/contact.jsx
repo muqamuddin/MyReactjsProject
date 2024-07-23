@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
+      <div className="container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px] max-w-[1320px] ">
         <div className="bg-gray-100 dark:bg-gray-500 relative p-[40px] md:pt-[91px] md:pr-[98px] md:pb-[86px] md:pl-[92px] rounded-[58px]">
           <div className="mx-auto relative max-w-[1320px]">
             <img
