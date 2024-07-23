@@ -7,7 +7,7 @@ const FAQs = () => {
   return (
     <>
       <Navbar />
-      <div className=" my-element container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] ">
+      <div className="container mx-auto my-element  px-[12px] md:px-[36px] xl:px-0 mt-[70px] ">
         <div className="gap-6 px-5 lg:flex xl:gap-[50px] ">
           <div className="flex-1 mb-[40px] ">
             <div className="mb-[22px]">
