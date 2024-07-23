@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 /* Default styles for small screens */
+@import-normalize;
 .container1 {
   width: 90%;
   margin: 0 auto;
