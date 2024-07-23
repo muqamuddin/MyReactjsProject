@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="wrapper mx-auto text-gray-900 font-normal max-w-[1320px]">
+      <div className="container mx-auto text-gray-900 font-normal max-w-[1320px]">
         <a name="top"> </a>
         <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[100px]">
           <div className="lg:grid lg:grid-cols-2 lg:gap-[30px] xl:gap-[95px]">
