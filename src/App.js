@@ -17,8 +17,8 @@ import ServiceDetails from './frontend/Pages/ServiceDetails';
 function App() {
   return (
 <div >
-  {/* <BrowserRouter basename={process.env.PUBLIC_URL} > */}
-  <BrowserRouter  >
+  <BrowserRouter basename={process.env.PUBLIC_URL} >
+  {/* <BrowserRouter  > */}
             <Routes>
               {/* this is the Web Roust */}
               <Route path="/" Component={Home} /> 
