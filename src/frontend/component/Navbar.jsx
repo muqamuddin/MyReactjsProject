@@ -32,22 +32,22 @@ const Navbar = () => {
                   <Link to="/" className="nav-link">
                     Home
                   </Link>
-                  <Link to="/Service" className="nav-link">
+                  <Link to="/Service/" className="nav-link">
                     Services
                   </Link>
-                  <Link to="/project" className="nav-link">
+                  <Link to="/project/" className="nav-link">
                     Project
                   </Link>
-                  <Link to="/admin/about/about" className="nav-link">
+                  <Link to="/admin/about/about/" className="nav-link">
                     About
                   </Link>
-                  <Link to="/team" className="nav-link">
+                  <Link to="/team/" className="nav-link">
                     Teams
                   </Link>
-                  <Link to="/contact" className="nav-link">
+                  <Link to="/contact/" className="nav-link">
                     Contact
                   </Link>
-                  <Link to="/faqs" className="nav-link">
+                  <Link to="/faqs/" className="nav-link">
                     FAQS
                   </Link>
                 </div>
@@ -75,22 +75,22 @@ const Navbar = () => {
                   <Link to="/" className="nav-link-mobile">
                     Home
                   </Link>
-                  <Link to="/admin/about/about" className="nav-link-mobile">
+                  <Link to="/admin/about/about/" className="nav-link-mobile">
                     About
                   </Link>
-                  <Link to="/Service" className="nav-link-mobile">
+                  <Link to="/Service/" className="nav-link-mobile">
                     Services
                   </Link>
-                  <Link to="/project" className="nav-link-mobile">
+                  <Link to="/project/" className="nav-link-mobile">
                     Project
                   </Link>
-                  <Link to="/team" className="nav-link-mobile">
+                  <Link to="/team/" className="nav-link-mobile">
                     Team
                   </Link>
-                  <Link to="/faqs" className="nav-link-mobile">
+                  <Link to="/faqs/" className="nav-link-mobile">
                     Faqs
                   </Link>
-                  <Link to="/contact" className="nav-link-mobile">
+                  <Link to="/contact/" className="nav-link-mobile">
                     Contact Us
                   </Link>
                   <DarkMode />
