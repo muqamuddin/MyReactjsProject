@@ -2,7 +2,7 @@ import React from "react";
 const TopHeader = () => {
   return (
     <>
-      <div className=" my-element bg-teal-700 dark:bg-black h-12 twhite w-full dark:border dark:border-b-1 dark:border-gray-600 sticky top-0 z-20">
+      <div className=" bg-teal-700 dark:bg-black h-12 twhite w-full dark:border dark:border-b-1 dark:border-gray-600 sticky top-0 z-20">
         <div className="flex items-center px-3 justify-between gap-5 mx-auto max-w-[1320px] py-[10px] md:mx-8">
           <p
             className="text-base hidden font-bold md:block twhite"
