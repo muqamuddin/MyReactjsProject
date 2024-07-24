@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <>
       <div
-        className="container max-w-[1320px] mx-auto bg fixed bottom-28 rounded-full grid place-items-center opacity-0 invisible transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px] "
+        className="container mx-auto max-w-[1320px] bg fixed bottom-28 rounded-full grid place-items-center opacity-0 invisible transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px] "
         id="backToTop"
       >
         <Link
@@ -20,7 +20,7 @@ const Footer = (props) => {
         </Link>
       </div>
 
-      <footer className="container mx-auto mt-[92px] lg:mt-[150px] xl:mt-[200px] mb-[30px]  rtl:dark:bg-black rtl:bg-opacity-80 dark:bg-black dark:bg-opacity-80 ">
+      <footer className="container mx-auto max-w-[1320px]  mt-[92px] lg:mt-[150px] xl:mt-[200px] mb-[30px]  rtl:dark:bg-black rtl:bg-opacity-80 dark:bg-black dark:bg-opacity-80 ">
         <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px]">
           <div className="flex flex-col items-center gap-2 mb-14 md:flex-row md:justify-between">
             <img

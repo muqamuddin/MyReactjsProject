@@ -4,7 +4,7 @@ const UseFullLinks = () => {
   return (
     <>
       <div className=" container mx-auto max-w-[1320px] bg-gray-200 h-[1px] mb-[52px] dark:border dark:border-b-1 dark:border-gray-600 "></div>
-      <div className="text-gray-600 grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] ">
+      <div className="container mx-auto max-w-[1320px] text-gray-600 grid gird-cols-1 gap-8 mb-[48px] md:grid-cols-2 lg:grid-cols-5 xl:gap-[98px] ">
         <div>
           <h5 className="text-heading-5 font-chivo usefull-link-title">
             Contact

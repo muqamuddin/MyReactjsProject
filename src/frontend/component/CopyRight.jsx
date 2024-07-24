@@ -5,7 +5,7 @@ const CopyRight = () => {
   return (
     <>
       <div className="container mx-auto max-w-[1320px] bg-gray-200 h-[1px] mb-[46px] dark:border dark:border-b-1 dark:border-gray-600 "></div>
-      <div className="text-gray-400 lg:flex lg:items-center lg:justify-between">
+      <div className="container mx-auto max-w-[1320px]  text-gray-400 lg:flex lg:items-center lg:justify-between">
         <div className="md:flex md:items-center md:gap-6">
           <p className="text-lead font-bold dark:text-white">
             ©Copyright - 2023 | All Rights Reserved
