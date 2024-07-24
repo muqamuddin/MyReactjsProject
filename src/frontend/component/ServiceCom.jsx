@@ -3,7 +3,7 @@ import ServicCard from "./ServicCard";
 const ServiceCom = ( ) => {
   return (
     <>
-      <div className="container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]  ">
+      <div className="container mx-auto px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px] max-w-[1320px] ">
           <h2 className="text-gray-900 font-bold font-chivo mb-2 text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 md:mb-[30px] max-w-[725px] flex items-center justify-center sm:justify-start dark:text-gray-200">
             OUR Service
           </h2>
