@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <>
       <div
-        className="bg fixed bottom-28 rounded-full grid place-items-center opacity-0 invisible transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px] max-w-[1320px]"
+        className="bg fixed bottom-28 rounded-full grid place-items-center opacity-0 invisible transition-all duration-300 right-[20px] z-[9999] w-[48px] h-[48px] max-w-[1320px] mx-auto"
         id="backToTop"
       >
         <Link
