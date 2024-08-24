@@ -1,8 +1,6 @@
 
 import React from 'react';
 import {BrowserRouter, Navigate, Route, Routes, } from 'react-router-dom';
-import Dashboard from './admin/Dashboard';
-import Test from './admin/test';
 import Home from './frontend/Pages/Home';
 import About from './frontend/Pages/About';
 import Service from './frontend/Pages/Service';
@@ -27,9 +25,6 @@ function App() {
               <Route path="/contact/" Component={Contact} />
               <Route path="/team/" Component={Team} />
               <Route path="/faqs/" Component={FAQs} />
-              {/* //Dashboard Routs       */}
-               <Route  path="/admin/dashboard" Component={Dashboard} />    
-               <Route path="/admin/test" Component={Test} /> 
                <Route path="/CardSlid/" Component={CardSlid} />
                <Route path="/projectdetail/:id/" Component={ProjectDetails} />
                <Route path="/servicedetails/:id/" Component={ServiceDetails} />

@@ -11,7 +11,7 @@ const Contact = () => {
             <img
               className="absolute right-0 max-w-[129px] top-[-50px] "
               src={`${process.env.PUBLIC_URL}/file/email.png`}
-              alt="mail image"
+              alt="contact image"
             />
             <p className="text-capitalized text-gray-500 uppercase tracking-[2px] mb-[15px] dark:text-gray-200 ">
               Contact us
