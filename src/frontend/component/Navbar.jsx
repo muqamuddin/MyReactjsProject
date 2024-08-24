@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <TopHeader />
-      <header className="navbar z-20">
+      <header className="navbar z-20 ">
         <nav className=" w-full  navbar  bgw dark:bg-black dark:bg-opacity-80  dark:rtl:bg-black shadow-2xl dark:shadow-2xl dark:border dark:border-b-1 dark:border-gray-600  ">
           <div className="w-full  mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16 ">
