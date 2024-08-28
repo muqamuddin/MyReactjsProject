@@ -8,7 +8,6 @@ import ComProject from "../component/ComProject";
 const Home = () => {
   return (
     <>
-    <p>in the name of allah</p>
       <Navbar />
       <div className="px-[12px] md:px-[36px] xl:px-0 mt-[70px] text-center lg:mt-[150px] shadow-sm dark:shadow-slate-100">
         <div className="text-center mb-[35px] md:mb-[50px]">
