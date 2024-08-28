@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyReactjsProject/static/css/main.9860a554.css",
-    "main.js": "/MyReactjsProject/static/js/main.0c7dd0bb.js",
+    "main.css": "/MyReactjsProject/static/css/main.3330135b.css",
+    "main.js": "/MyReactjsProject/static/js/main.0c96bfb2.js",
     "static/media/slick.svg": "/MyReactjsProject/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MyReactjsProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/MyReactjsProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MyReactjsProject/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MyReactjsProject/index.html",
-    "main.9860a554.css.map": "/MyReactjsProject/static/css/main.9860a554.css.map",
-    "main.0c7dd0bb.js.map": "/MyReactjsProject/static/js/main.0c7dd0bb.js.map"
+    "main.3330135b.css.map": "/MyReactjsProject/static/css/main.3330135b.css.map",
+    "main.0c96bfb2.js.map": "/MyReactjsProject/static/js/main.0c96bfb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9860a554.css",
-    "static/js/main.0c7dd0bb.js"
+    "static/css/main.3330135b.css",
+    "static/js/main.0c96bfb2.js"
   ]
 }
