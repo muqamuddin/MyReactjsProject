@@ -6,6 +6,7 @@ return (
     <>
      {data.map((item, index) => (
         <div key={index}   className="p-[35px] pb-[35px] ">
+          {/* className="p-[25px] pb-[35px] md:m-0 lg:m-0 xl:m-0 mr-32 " */}
          
           <div className="group bg-white dark:bg-gray-700 relative rounded-md shadow dark:hover:shadow-xl hover:shadow-xl dark:hover:shadow-gray-700 overflow-hidden">
             <div className="relative overflow-hidden">

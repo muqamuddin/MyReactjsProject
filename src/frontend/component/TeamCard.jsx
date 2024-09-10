@@ -7,7 +7,7 @@ const TeamCard = () => {
       {team.map((teams, id) => (
         <div
           key={id}
-          className="p-[25px] pb-[35px] md:m-0 lg:m-0 xl:m-0 mr-32 "
+          className="p-[25px] pb-[35px]  "
         >
           <div className=" group bg-white dark:bg-gray-700 relative rounded-md shadow dark:hover:shadow-xl hover:shadow-xl dark:hover:shadow-gray-700 overflow-hidden">
             <div className="relative overflow-hidden">
